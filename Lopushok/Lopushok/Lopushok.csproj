@@ -99,6 +99,7 @@
     <Compile Include="Data\Product.cs">
       <DependentUpon>ModelDb.tt</DependentUpon>
     </Compile>
+    <Compile Include="Data\ProductExctention.cs" />
     <Compile Include="Data\ProductMaterial.cs">
       <DependentUpon>ModelDb.tt</DependentUpon>
     </Compile>
@@ -165,6 +166,7 @@
       <DependentUpon>ModelDb.edmx</DependentUpon>
       <LastGenOutput>ModelDb.cs</LastGenOutput>
     </Content>
+    <Resource Include="products\paper_18.jpeg" />
     <Resource Include="products\paper_0.jpeg" />
     <Resource Include="products\paper_1.jpeg" />
     <Resource Include="products\paper_10.jpeg" />
@@ -175,7 +177,6 @@
     <Resource Include="products\paper_15.jpeg" />
     <Resource Include="products\paper_16.jpeg" />
     <Resource Include="products\paper_17.jpeg" />
-    <Resource Include="products\paper_18.jpeg" />
     <Resource Include="products\paper_19.jpeg" />
     <Resource Include="products\paper_2.jpeg" />
     <Resource Include="products\paper_20.jpeg" />
