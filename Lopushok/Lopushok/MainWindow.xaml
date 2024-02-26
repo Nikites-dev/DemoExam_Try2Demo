@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lopushok"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Лопушок" Height="450" Width="800">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -45,9 +45,9 @@
                             <Image Grid.Column="0" Height="100" Source="{Binding Image}"/>
                             <StackPanel Grid.Column="1">
                                 <StackPanel Orientation="Horizontal">
-                                    <TextBlock Text="{Binding ProductType}"/>
+                                    <TextBlock Text="{Binding ProductType.Name}"/>
                                     <TextBlock Text=" | "/>
-                                    <TextBlock Text="{Binding ProductName}"/>
+                                    <TextBlock Text="{Binding Name}"/>
                                 </StackPanel>
                                 <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
                                     <TextBlock Text="Материалы: "/>
@@ -65,7 +65,7 @@
                                     </ListView>
                                 </StackPanel>
                             </StackPanel>
-                            <TextBlock Grid.Column="2" Text="{Binding}" />
+                            <TextBlock Grid.Column="2" Text="{Binding MinCost}" />
                         </Grid>
                     </DataTemplate>
                 </ListView.ItemTemplate>

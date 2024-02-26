@@ -9,9 +9,11 @@
         <SolidColorBrush x:Key="FocusColor" Color="#00CC76"/>
         <Style TargetType="TextBlock">
             <Setter Property="FontFamily" Value="Gabriola"/>
+            <Setter Property="FontSize" Value="20"/>
         </Style>
         <Style TargetType="TextBox">
             <Setter Property="FontFamily" Value="Gabriola"/>
+            <Setter Property="FontSize" Value="20"/>
         </Style>
         <Style TargetType="ListViewItem">
             <Setter Property="FontFamily" Value="Gabriola"/>
