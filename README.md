@@ -44,6 +44,6 @@ dontet build
 
 ## Авторы
 
-* **Петров Никита** - *Initial work* - [WingiM](https://github.com/Nikites-dev)
+* **Петров Никита** - *Initial work* - [Nikites-dev](https://github.com/Nikites-dev)
 
 See also the list of [contributors](https://github.com/Nikites-dev/DemoExam_Try2Demo/contributors) who participated in this project.
